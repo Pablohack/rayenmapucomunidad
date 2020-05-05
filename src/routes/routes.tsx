@@ -1,11 +1,11 @@
-    
 import React from 'react';
 import { Switch, Route } from 'react-router';
-import  Inicio  from './../containers/index'
+import RouteSwitch from './routes-switch';
+
 const routes = (
     <Switch>
-        <Route exact path="/" component={Inicio}></Route>
+      <Route path='/' component={RouteSwitch} />     
     </Switch>
 )
 
-export default routes
+export default routes;

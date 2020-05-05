@@ -1,6 +1,6 @@
 .menuBody{
     background-color: #b70f0a;
-    width: 80%;
+    width: 84%;
     height: 75px;
     margin-left: 10%;
     margin-right: 10%;
@@ -9,12 +9,15 @@
 }
 .menuOption{
     width: 215px;
-    height: 100px;
     text-align: center;
-    border-right: white 3px solid;   
+    margin-top: 20px;
+}
+.borderRight{
+    border-right: white 3px solid; 
 }
 .textMenu{
     font-size: 25px;
     color: white;
     font-family: "Nunito Sans";
+    text-decoration: none;
 }
