@@ -4,7 +4,7 @@ import RouteSwitch from './routes-switch';
 
 const routes = (
     <Switch>
-      <Route path='/' component={RouteSwitch} />     
+      <Route  component={RouteSwitch} />     
     </Switch>
 )
 

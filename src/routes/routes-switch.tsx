@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router';
+import { Switch, Router, Redirect } from 'react-router';
 import PrivateRoute from './route-private';
 import Notices from '../containers/notice/notice'
 import AboutUs from '../containers/aboutus/aboutus'
@@ -16,7 +16,7 @@ interface AppProps {
 
 const RouteSwitch = ({ history }: AppProps): JSX.Element => {
     return (
-        <BrowserRouter basename="/">
+        <BrowserRouter basename="">
             <Layout>
                 <Switch>
                         <PrivateRoute exact path="/inicio" component={Notices}></PrivateRoute>

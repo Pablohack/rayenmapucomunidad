@@ -1,15 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import Typography from '@material-ui/core/Typography';
+import { ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Typography, Grid, List, ListItem, ListItemText } from '@material-ui/core/';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
-interface IAccordion {
-    level: string;
-    parvularia: [{ name: string }];
-}
+import { IAccordion } from '../../containers/Interfaces/Interfaces'
+import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -20,12 +14,13 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: theme.typography.fontWeightRegular,
     },
     body: {
-        backgroundColor:'red'
+        backgroundColor: '#F3F3F3'
     }
 }));
 
 export default function Accordion(props: IAccordion) {
     const classes = useStyles();
+    let parvularia = props.data;
 
     return (
         <div className={classes.root}>
@@ -39,12 +34,19 @@ export default function Accordion(props: IAccordion) {
                 </ExpansionPanelSummary>
                 <ExpansionPanelDetails className={classes.body}>
                     <Typography>
-                        {
-                            props.parvularia.map((value: any, index: any) => (
-                                value.name
-                            ))
-
-                        }
+                        <List dense={true}>
+                            {
+                                parvularia.map((value) =>
+                                    <ListItem>
+                                        <ListItemText
+                                            primary={value.cargo}
+                                            secondary={value.name}
+                                        />
+                                    </ListItem>,
+                                )
+                            }
+                        </List>
+                        <Link to={"/"+props.link}>Material Didactico</Link>
                     </Typography>
                 </ExpansionPanelDetails>
             </ExpansionPanel>
