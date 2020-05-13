@@ -16,3 +16,9 @@
     margin-top: 40px;
     margin-left: 40px;
 }
+.textlink{
+    font-size: 20px;
+    color: #2f2f2f;
+    font-family: "Nunito Sans";
+    text-decoration: none;
+}

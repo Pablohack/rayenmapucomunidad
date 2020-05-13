@@ -23,7 +23,7 @@ const RouteSwitch = ({ history }: AppProps): JSX.Element => {
                         <PrivateRoute exact path="/inicio" component={Notices}></PrivateRoute>
                         <PrivateRoute exact path="/quienessomos" component={AboutUs}></PrivateRoute>
                         <PrivateRoute exact path="/niveles" component={Levels}></PrivateRoute>
-                        <PrivateRoute exact path="/centropadres" component={ParentCenters}></PrivateRoute>
+                        <PrivateRoute exact path="/aprenderfamilia" component={ParentCenters}></PrivateRoute>
                         <PrivateRoute exact path="/metodologia" component={Methodology}></PrivateRoute>
                         <PrivateRoute exact path="/niveles/:nivel" component={EducationalMaterial}></PrivateRoute>
                 </Switch>

@@ -3,11 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import { ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Typography, Grid, List, ListItem, ListItemText } from '@material-ui/core/';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { IAccordion } from '../../containers/Interfaces/Interfaces'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        width: '100%',
+        width: '80%',
     },
     heading: {
         fontSize: theme.typography.pxToRem(15),
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Accordion(props: IAccordion) {
     const classes = useStyles();
     let parvularia = props.data;
-
+    console.log(props.link)
     return (
         <div className={classes.root}>
             <ExpansionPanel>
@@ -46,7 +46,7 @@ export default function Accordion(props: IAccordion) {
                                 )
                             }
                         </List>
-                        <Link to={"niveles/"+props.link}>Material Didactico</Link>
+                        <NavLink to={props.link} target="_blank">Material Didactico</NavLink>
                     </Typography>
                 </ExpansionPanelDetails>
             </ExpansionPanel>

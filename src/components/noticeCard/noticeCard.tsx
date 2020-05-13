@@ -9,7 +9,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import '../style/noticeCard.css';
-
+import a from '../../utilities/img/not1.jpg'
 interface INotice{
   imagen: string;
   extract: string;
@@ -17,16 +17,17 @@ interface INotice{
 }
 
 export default function NoticeCard(props:INotice) {
-   let img = "../../utilities/img/"+props.imagen;
+   let img = "/img/" + props.imagen;
+  console.log(img);
     return (
         <Card className="root">
         <CardActionArea>
           <CardMedia
             className="media"
+            title="Contemplative"
             image={img}
-            title="Contemplative Reptile"
-          />
-          {/* <img src={"../../utilities/img/"+props.imagen}></img> */}
+         />
+          {/* <img src={"/img/"+props.imagen}></img> */}
           <CardContent>           
             <Typography variant="body2" color="textSecondary" component="p">
              {props.extract}
@@ -35,7 +36,7 @@ export default function NoticeCard(props:INotice) {
         </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
-            <Link to={props.link}  > Ir a la noticia</Link>
+            <Link to={props.link} target="_blank" > Ir a la noticia</Link>
           </Button>
         </CardActions>
       </Card>

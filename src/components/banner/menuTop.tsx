@@ -17,7 +17,7 @@ export default function MenuTop() {
                     <Link to="/niveles" className="textMenu">Niveles</Link>
                 </div>
                 <div className="menuOption borderRight">
-                    <Link to="/centropadres" className="textMenu">Centro de Padres</Link>
+                    <Link to="/aprenderfamilia" className="textMenu">Aprender en Familia</Link>
                 </div>
                 <div className="menuOption">
                     <Link to="/metodologia" className="textMenu">Metodología</Link>
