@@ -39,14 +39,14 @@ export default function Accordion(props: IAccordion) {
                                 parvularia.map((value) =>
                                     <ListItem>
                                         <ListItemText
-                                            primary={value.cargo}
-                                            secondary={value.name}
+                                            primary={value.name}
+                                            secondary={value.cargo}
                                         />
                                     </ListItem>,
                                 )
                             }
                         </List>
-                        <Link to={"/"+props.link}>Material Didactico</Link>
+                        <Link to={"niveles/"+props.link}>Material Didactico</Link>
                     </Typography>
                 </ExpansionPanelDetails>
             </ExpansionPanel>

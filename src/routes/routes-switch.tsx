@@ -5,6 +5,7 @@ import PrivateRoute from './route-private';
 import Notices from '../containers/notice/notice'
 import AboutUs from '../containers/aboutus/aboutus'
 import Levels from '../containers/levels/levels'
+import EducationalMaterial from '../containers/levels/educational'
 import ParentCenters from '../containers/parentcenter/parentcenter'
 import Methodology from '../containers/methodology/methodology'
 import Layout from '../containers/layout'
@@ -24,6 +25,7 @@ const RouteSwitch = ({ history }: AppProps): JSX.Element => {
                         <PrivateRoute exact path="/niveles" component={Levels}></PrivateRoute>
                         <PrivateRoute exact path="/centropadres" component={ParentCenters}></PrivateRoute>
                         <PrivateRoute exact path="/metodologia" component={Methodology}></PrivateRoute>
+                        <PrivateRoute exact path="/niveles/:nivel" component={EducationalMaterial}></PrivateRoute>
                 </Switch>
             </Layout>                
         </BrowserRouter>

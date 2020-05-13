@@ -5,20 +5,29 @@ import { ITeacher } from '../Interfaces/Interfaces'
 export default function Levels() {
 
     let SalaCunaMenor: ITeacher[] = [{cargo:'',name:''}];
-    SalaCunaMenor.push({ cargo: 'Educadora', name: "Educadora1" });
-    SalaCunaMenor.push({ cargo: 'Tecnico parvularia', name: "Tecnico1" });
+    SalaCunaMenor.push({ name: 'Elizabeth Muñoz Aguero', cargo: "Educadora" });
+    SalaCunaMenor.push({ name: 'Dominique Ruz', cargo: "Tecnico parvularia" });
+    SalaCunaMenor.push({ name: 'Isabel Guajardo', cargo: "Tecnico parvularia" });
+    SalaCunaMenor.push({ name: 'Olga Contreras', cargo: "Tecnico parvularia" });
 
     let SalaCunaMayor: ITeacher[] = [{cargo:'',name:''}];
-    SalaCunaMayor.push({ cargo: 'Educadora', name: "Educadora1" });
-    SalaCunaMayor.push({ cargo: 'Tecnico parvularia', name: "Tecnico1" });
+    SalaCunaMayor.push({ name: 'Jéssica Jiménez Vega', cargo: "Educadora" });
+    SalaCunaMayor.push({ name: 'Erika Gonzalez', cargo: "Tecnico parvularia" });
+    SalaCunaMayor.push({ name: 'Katherine Iturra', cargo: "Tecnico parvularia" });
+    SalaCunaMayor.push({ name: 'Valerie Orellana', cargo: "Tecnico parvularia" });
 
     let MedioMenor: ITeacher[] = [{cargo:'',name:''}];
-    MedioMenor.push({ cargo: 'Educadora', name: "Educadora1" });
-    MedioMenor.push({ cargo: 'Tecnico parvularia', name: "Tecnico1" });
+    MedioMenor.push({ name: 'Loreto Elgueda Uribe', cargo: "Educadora" });
+    MedioMenor.push({ name: 'Evangelina Caceres', cargo: "Tecnico parvularia" });
+    MedioMenor.push({ name: 'Carmen Palacios', cargo: "Tecnico parvularia" });
+    MedioMenor.push({ name: 'Claudia Jara', cargo: "Tecnico parvularia" });
+
     
     let MedioMayor: ITeacher[] = [{cargo:'',name:''}];
-    MedioMayor.push({cargo:'Educadora',name:"Claudia"});
-    MedioMayor.push({cargo:'Tecnico parvularia',name:"Ninoska"});
+    MedioMayor.push({name:'Claudia Alfaro Riquelme',cargo:"Educadora"});
+    MedioMayor.push({name:'Ninoska Garrido',cargo:"Tecnico parvularia"});
+    MedioMayor.push({name:'Romina Habach',cargo:"Tecnico parvularia"});
+    MedioMayor.push({name:'Fernanda Parra',cargo:"Tecnico parvularia"});
 
     return (
         <Box>
