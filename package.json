@@ -1,6 +1,6 @@
 {
   "name": "rayenmapu",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "private": true,
   "engines": {
     "node": "13.7.0"
