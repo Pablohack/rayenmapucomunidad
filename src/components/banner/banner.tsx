@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@material-ui/core';
-import banner from '../../utilities/img/banner1.png'
+import banner from '../../utilities/img/banner2.jpeg'
 import MenuTop from './menuTop';
 export default function Banner() {
     

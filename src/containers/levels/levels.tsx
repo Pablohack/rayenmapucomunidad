@@ -39,8 +39,8 @@ export default function Levels() {
                 <Accordion data={v} level="Sala Cuna Mayor" ></Accordion> */}
                 <Accordion data={SalaCunaMenor} level="Sala Cuna Menor" link="//drive.google.com/drive/folders/1-IwZ0iPSd1qnDuJ7W6jqnO9htwZOyckB" ></Accordion>
                 <Accordion data={SalaCunaMayor} level="Sala Cuna Mayor" link="//drive.google.com/drive/folders/1OC2py0RY3InRP-YhEP7bBL9et7xsqG3s" ></Accordion>
-                <Accordion data={MedioMayor} level="Medio Menor" link="//drive.google.com/drive/folders/1gLUADuE82pEAyhkK_HDL2x1e3qHOgagG" ></Accordion>
-                <Accordion data={MedioMenor} level="Medio Mayor" link="//drive.google.com/drive/folders/1LPpeAX8T2FTqPP7r_HaIUepj4Ub9J6om"></Accordion>
+                <Accordion data={MedioMenor} level="Medio Menor" link="//drive.google.com/drive/folders/1gLUADuE82pEAyhkK_HDL2x1e3qHOgagG" ></Accordion>
+                <Accordion data={MedioMayor} level="Medio Mayor" link="//drive.google.com/drive/folders/1LPpeAX8T2FTqPP7r_HaIUepj4Ub9J6om"></Accordion>
 
                 {/* <Grid container direction="row" justify="flex-start" alignItems="center">
 
