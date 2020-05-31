@@ -41,7 +41,7 @@ export default function ParentCenters() {
                                     </Avatar>
                                 </ListItemAvatar>
                                 <Link className="textlink" to="/pdf/MFCSemana4.pdf" target="_blank">Monstruo Rosa</Link>
-                            </ListItem>,
+                            </ListItem>
                         </List>
                     </div>
                 </Grid>
@@ -55,7 +55,7 @@ export default function ParentCenters() {
                                     </Avatar>
                                 </ListItemAvatar>
                                 <Link className="textlink" to="/pdf/MFCSemana3Creole.pdf" target="_blank">Mis primeros opuestos Creole</Link>
-                            </ListItem>,
+                            </ListItem>
                         </List>
                     </div>
                 </Grid>
@@ -69,7 +69,7 @@ export default function ParentCenters() {
                                     </Avatar>
                                 </ListItemAvatar>
                                 <Link className="textlink" to="/pdf/MFCSemana3Español.pdf" target="_blank">Cuento Una historia de la liebre de pascua Español</Link>
-                            </ListItem>,
+                            </ListItem>
                         </List>
                     </div>
                 </Grid>             

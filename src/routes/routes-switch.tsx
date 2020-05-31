@@ -8,6 +8,7 @@ import Levels from '../containers/levels/levels'
 import EducationalMaterial from '../containers/levels/educational'
 import ParentCenters from '../containers/parentcenter/parentcenter'
 import Methodology from '../containers/methodology/methodology'
+import VideoLayout from '../containers/videos/videoLayout';
 import Layout from '../containers/layout'
 import { BrowserRouter } from 'react-router-dom';
 
@@ -18,13 +19,14 @@ interface AppProps {
 const RouteSwitch = ({ history }: AppProps): JSX.Element => {
     return (
         <BrowserRouter basename="">
-            <Layout>
-                <Switch>
+            <Layout >
+                <Switch >
                         <PrivateRoute exact path="/inicio" component={Notices}></PrivateRoute>
                         <PrivateRoute exact path="/quienessomos" component={AboutUs}></PrivateRoute>
                         <PrivateRoute exact path="/niveles" component={Levels}></PrivateRoute>
                         <PrivateRoute exact path="/aprenderfamilia" component={ParentCenters}></PrivateRoute>
                         <PrivateRoute exact path="/metodologia" component={Methodology}></PrivateRoute>
+                        <PrivateRoute exact path="/videos" component={VideoLayout}></PrivateRoute>
                         <PrivateRoute exact path="/niveles/:nivel" component={EducationalMaterial}></PrivateRoute>
                 </Switch>
             </Layout>                

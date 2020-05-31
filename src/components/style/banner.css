@@ -1,14 +1,14 @@
 .menuBody{
     background-color: #b70f0a;
-    width: 84%;
+    width: 94%;
     height: 75px;
-    margin-left: 10%;
+    margin-left: 3%;
     margin-right: 10%;
     margin-top: -50px;
     position: sticky;
 }
 .menuOption{
-    width: 215px;
+    width: 185px;
     text-align: center;
     margin-top: 20px;
 }

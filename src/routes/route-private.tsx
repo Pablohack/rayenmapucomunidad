@@ -6,7 +6,6 @@ interface IPrivateRoute{
     component: FunctionComponent<any>;
 }
 const PrivateRoute = (props:IPrivateRoute& RouteProps):JSX.Element => {
-    console.log("privateroute")
     return (
             <Route component={props.component} {...props} /> 
     )
