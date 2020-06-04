@@ -191,7 +191,316 @@ export default function VideoLayout() {
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>SENSORIAL AREA VISUAL OTOÑO </Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/9vYLLLxtPZ8'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Cuento sorpresa en la selva</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/ItjudAdtL4E'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Perdi mi calcetin</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/JhU6QMGlYDs'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Cuento el osito y sus fotos</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/SdoCfobLSEI'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Cuento de Chile crece contigo</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/cXggd83QMRQ'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Vida practica "Cortar Frutas"</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/W3LF6u8YpOw'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Vida practica "Cortar Frutas"</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/W3LF6u8YpOw'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Gira Girasol</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/Sf8yl1d7DWI'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Mes del mar Creando un Acuario Parte 1</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/BbpH13Cjed4'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Teatro de Titeres</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/EXFtUeg-w68'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Preguntas Humberto y sus vacaciones Parte 1</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/niUunyrf1jk'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Matemática experimento </Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/ltj5sCmZZQE'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Cuento Humberto y sus vacaciones</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/6cYzZfREQdY'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Vida practica cernir </Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/B9Q2UJpBfYY'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Cuento cosita linda</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/kpZ_XIOJ-Q0'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Sacar cascara de la fruta</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/gOMjGrvApes'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Cuento la casa de la oveja Maria</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/O-8YQ5flmDM'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Sensorial del gusto </Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/dQsxMTb1zY4'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Cuento la sorpresa</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/11yWSTu7qXs'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Antifaz mes del mar </Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/u25NCHvZ5y0'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Cuento conejo y sombrero</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/SD9ZxjIvd1M'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Exprimir limones  Montessori</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/zWAsT_Wf_kc'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
         </Box>
+
     );
 }
 
