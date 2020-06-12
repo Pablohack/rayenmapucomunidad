@@ -36,6 +36,48 @@ export default function VideoLayout() {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
+                        <Typography className={classes.heading}>04-05-2020 Montessori: Troquelar</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/B7usnQ6bVo0'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>04-05-2020 Jugarte: el ratoncito</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/Zaqzba-5aL8'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>04-05-2020 Montessori: Arte</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/Q6_GECPO_jA'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
                         <Typography className={classes.heading}>05-05-2020 Cuento de Humberto</Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
@@ -83,7 +125,8 @@ export default function VideoLayout() {
                         <VideoPlayer link='https://youtu.be/fO5QMIyAl40'></VideoPlayer>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
-            </div> <div className={classes.root}>
+            </div>
+            <div className={classes.root}>
                 <ExpansionPanel>
                     <ExpansionPanelSummary
                         expandIcon={<ExpandMoreIcon />}
@@ -96,7 +139,22 @@ export default function VideoLayout() {
                         <VideoPlayer link='https://youtu.be/cnzwr7Wu5Ks'></VideoPlayer>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
-            </div> <div className={classes.root}>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>06-05-2020 Oficio: Veterinario</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/rZAqjeATaTY'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
                 <ExpansionPanel>
                     <ExpansionPanelSummary
                         expandIcon={<ExpandMoreIcon />}
@@ -254,6 +312,20 @@ export default function VideoLayout() {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
+                        <Typography className={classes.heading}>11-05-2020 Montessori Trasvasijar</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/nYHEE325hTw'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
                         <Typography className={classes.heading}>12-05-2020 Cuento de Chile crece contigo</Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
@@ -282,21 +354,7 @@ export default function VideoLayout() {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <Typography className={classes.heading}>>12-05-2020 Vida practica "Cortar Frutas"</Typography>
-                    </ExpansionPanelSummary>
-                    <ExpansionPanelDetails className={classes.body}>
-                        <VideoPlayer link='https://youtu.be/W3LF6u8YpOw'></VideoPlayer>
-                    </ExpansionPanelDetails>
-                </ExpansionPanel>
-            </div>
-            <div className={classes.root}>
-                <ExpansionPanel>
-                    <ExpansionPanelSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
-                    >
-                        <Typography className={classes.heading}>>13-05-2020 Gira Girasol</Typography>
+                        <Typography className={classes.heading}>13-05-2020 Gira Girasol</Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
                         <VideoPlayer link='https://youtu.be/Sf8yl1d7DWI'></VideoPlayer>
@@ -422,10 +480,52 @@ export default function VideoLayout() {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
+                        <Typography className={classes.heading}>24-05-2020 Montessori: Flota o no flota</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/AJ1q-YTJqvE'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>25-05-2020 Cuidados del mar</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/zLGEmIOyFDU'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
                         <Typography className={classes.heading}>26-05-2020 Cuento la casa de la oveja Maria</Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
                         <VideoPlayer link='https://youtu.be/O-8YQ5flmDM'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>26-05-2020 Pelar y moler platanos</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/SEk0GuCltGA'></VideoPlayer>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>
@@ -496,6 +596,90 @@ export default function VideoLayout() {
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
                         <VideoPlayer link='https://youtu.be/zWAsT_Wf_kc'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>01-06-2020 Arte: elaborar marioneta con material reciclado</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/3fnWASlS5oM'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>02-06-2020 Montessori: Lenguaje descriptivo</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/X2dyTDxKLSI'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>03-06-2020 Efemerides: No al tabaco</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/-6ev0ixFeGs'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>08-06-2020 Estampados con citricos</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/eNzODdr_dkk'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>08-06-2020 Montessori: Untar pan o galleta</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/KtBolYDoGcs'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>10-06-2020 Higiene bucal</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/RQwHO47okus'></VideoPlayer>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>
