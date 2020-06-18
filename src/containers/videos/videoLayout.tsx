@@ -683,6 +683,49 @@ export default function VideoLayout() {
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>11-06-2020 Teatro de sombras "Ratita presumida"</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/mkBBMUOYOlw'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>15-06-2020 Ciencias Estaciones del Año</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/d3grq1iBT8A'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>16-06-2020  Montessori Tablitas de colores</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/DPc5bRvohxA'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+
         </Box>
 
     );
