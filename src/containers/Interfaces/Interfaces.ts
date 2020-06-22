@@ -1,6 +1,7 @@
 export interface IAccordion{
     level: string;
     link: string;
+    linkInterview: string
     data: ITeacher[];
 }
 

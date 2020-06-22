@@ -46,7 +46,10 @@ export default function Accordion(props: IAccordion) {
                                 )
                             }
                         </List>
+                        <Grid  container  direction="column"  justify="flex-start"  alignItems="center">
                         <NavLink to={props.link} target="_blank">Material Didactico</NavLink>
+                        <NavLink to={props.linkInterview} target="_blank">Evaluación de experiencia</NavLink>
+                        </Grid>
                     </Typography>
                 </ExpansionPanelDetails>
             </ExpansionPanel>
