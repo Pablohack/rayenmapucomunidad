@@ -732,6 +732,20 @@ export default function VideoLayout() {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
+                        <Typography className={classes.heading}>17-06-2020 Higiene bucal: lavado de muelas</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/QRr_hfcxIJQ'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
                         <Typography className={classes.heading}>18-06-2020 discriminación sensorial de figuras geometricas</Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
@@ -750,6 +764,20 @@ export default function VideoLayout() {
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
                         <VideoPlayer link='https://youtu.be/NJaL0f-_3Eo'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>19-06-2020 Montessori: Arte de invierno</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/9tzi2shzQsE'></VideoPlayer>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>
