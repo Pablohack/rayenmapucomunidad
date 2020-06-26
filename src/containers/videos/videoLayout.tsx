@@ -760,7 +760,35 @@ export default function VideoLayout() {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <Typography className={classes.heading}>19-06-2020 Cuento la oveja de pablo</Typography>
+                        <Typography className={classes.heading}>18-06-2020 Cuento "La oveja de Pablito" PARTE 1</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/iNNIlYw3o70'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>18-06-2020 Cuento "La oveja de Pablito" PARTE 2</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/3c7Xs1vdZwo'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div> 
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>19-06-2020 Cuento "La oveja de Pablito" PARTE 3</Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
                         <VideoPlayer link='https://youtu.be/NJaL0f-_3Eo'></VideoPlayer>
@@ -778,6 +806,35 @@ export default function VideoLayout() {
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
                         <VideoPlayer link='https://youtu.be/9tzi2shzQsE'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>23-06-2020 Montessori; Bolsa Sensorial</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/j8Sv629Vu9g'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>23-06-2020 Cocina culinaria  Mapuche "Sopaipillas"</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/j7N_qwb8Kvo'></VideoPlayer>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>
