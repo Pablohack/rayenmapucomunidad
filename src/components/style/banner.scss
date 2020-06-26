@@ -1,0 +1,66 @@
+@import "./variables/variables.scss";
+
+.menuBody {
+  background-color: green;
+  width: 94%;
+  height: 75px;
+  margin-left: 3%;
+  margin-right: 5%;
+  margin-top: -50px;
+  position: sticky;
+  border-radius: 10px;
+  @include media-small {
+    background-color: #b70f0a;
+    width: 95%;
+    height: 75px;
+    margin-left: 3%;
+  }
+  @include media-medium {
+    background-color: #b70f0a;
+    width: 95%;
+    height: 75px;
+    margin-left: 3%;
+  }
+
+  @include media-large {
+    background-color: #b70f0a;
+    width: 90%;
+    height: 75px;
+    margin-left: 3%;
+  }
+  @include media-xlarge {
+    background-color: #b70f0a;
+    width: 92%;
+    height: 75px;
+    margin-left: 3%;
+  }
+}
+.menuOption {
+  width: 100px;
+  text-align: center;
+  margin-top: 20px;
+  @include media-medium {
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  @include media-large {
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  @include media-xlarge {
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.borderRight {
+  border-right: white 3px solid;
+}
+.textMenu {
+  font-size: 25px;
+  color: white;
+  font-family: "Nunito Sans";
+  text-decoration: none;
+}

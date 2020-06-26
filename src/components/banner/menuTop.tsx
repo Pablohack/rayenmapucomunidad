@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Grid } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import "../style/banner.css";
+import "../style/banner.scss";
 export default function MenuTop() {
   return (
     <Box className="menuBody">
@@ -19,6 +19,11 @@ export default function MenuTop() {
         <div className="menuOption borderRight">
           <Link to="/niveles" className="textMenu">
             Niveles
+          </Link>
+        </div>
+        <div className="menuOption borderRight">
+          <Link to="/image" className="textMenu">
+            Álbum
           </Link>
         </div>
         <div className="menuOption borderRight">
