@@ -838,6 +838,20 @@ export default function VideoLayout() {
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Bienvenida al Invierno</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/V9iNyEOHEHQ'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
 
         </Box>
 
