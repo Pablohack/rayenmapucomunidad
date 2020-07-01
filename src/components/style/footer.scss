@@ -1,0 +1,38 @@
+.containerFooter {
+	min-height: 200px;
+	width: 100%;
+	margin: 0;
+	background-color: #b70f0a;
+}
+.footerBlockLeft {
+	padding-left: 200px;
+	margin-top: 50px;
+}
+.footerBlockRight {
+	margin-top: 50px;
+	padding-right: 200px;
+}
+.footerBlockCenter {
+	margin-bottom: 90px;
+}
+.footerBody {
+	margin-left: -25px;
+}
+.titleFooter {
+	font-family: 'Nunito Sans', sans-serif;
+	color: white;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+.linkFooter {
+	font-size: 18px;
+	font-family: 'Nunito Sans';
+	color: white;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.list {
+	list-style-type: circle;
+	margin-top: 5px;
+}

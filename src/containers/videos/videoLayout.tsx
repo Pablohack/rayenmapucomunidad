@@ -780,7 +780,7 @@ export default function VideoLayout() {
                         <VideoPlayer link='https://youtu.be/3c7Xs1vdZwo'></VideoPlayer>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
-            </div> 
+            </div>
             <div className={classes.root}>
                 <ExpansionPanel>
                     <ExpansionPanelSummary
@@ -849,6 +849,20 @@ export default function VideoLayout() {
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails className={classes.body}>
                         <VideoPlayer link='https://youtu.be/V9iNyEOHEHQ'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>Montesori Vida Practica: Abrir y cerrar frascos</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/9M4SS5xFbxU'></VideoPlayer>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>

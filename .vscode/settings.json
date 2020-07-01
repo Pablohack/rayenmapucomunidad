@@ -1,0 +1,8 @@
+{
+    "prettier.useTabs": true,
+    "prettier.resolveGlobalModules": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": true,
+    "prettier.endOfLine": "auto",
+    "prettier.configPath": ".prettierrc.json"
+}
