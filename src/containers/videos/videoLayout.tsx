@@ -866,7 +866,20 @@ export default function VideoLayout() {
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>
-
+            <div className={classes.root}>
+                <ExpansionPanel>
+                    <ExpansionPanelSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}>01-07-2020 BREVE RESEÑA BOMBEROS Y MANUALIDADs</Typography>
+                    </ExpansionPanelSummary>
+                    <ExpansionPanelDetails className={classes.body}>
+                        <VideoPlayer link='https://youtu.be/9M4SS5xFbxU'></VideoPlayer>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
+            </div>
         </Box>
 
     );

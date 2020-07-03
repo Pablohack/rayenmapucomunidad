@@ -25,6 +25,8 @@ export default function Footer() {
             <a href="http://www.codeduc.cl/" className="linkFooter">
               Codeduc
           </a>
+            <br />
+            <a href="http://www.crececontigo.gob.cl/" className="linkFooter">Crece Contigo</a>
           </ul>
         </Grid>
       </Grid>
